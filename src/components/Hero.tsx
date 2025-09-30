@@ -37,11 +37,11 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="relative h-full min-h-[400px] tablet:min-h-[500px]">
+          <div className="relative h-full min-h-[600px] tablet:min-h-[700px] desktop:min-h-[800px]">
             <img
               src={heroImage}
               alt="SEO Course Product Box"
-              className="w-full h-full object-contain"
+              className="w-full h-full object-contain scale-110"
             />
             <img
               src={heroBadge}
