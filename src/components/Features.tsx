@@ -4,6 +4,7 @@ import featureRankings from "@/assets/feature-rankings.jpg";
 import featureContent from "@/assets/feature-content.jpg";
 import featureParasiteSeo from "@/assets/feature-parasite-seo.jpg";
 import featurePrBacklinks from "@/assets/feature-pr-backlinks.png";
+import featureExpiredDomains from "@/assets/feature-expired-domains.png";
 
 const features = [
   {
@@ -47,6 +48,13 @@ const features = [
       "Digital PR backlinks are the FUTURE of SEO done right. And the BEST KEPT SECRET of TOP LEVEL SEO professionals right now. Discover inside WHY you need this type of backlinks in every one of your SEO campaigns and WHERE to get them for DIRTY CHEAP prices not commonly found on mainstream sources.",
     image: featurePrBacklinks,
     imageAlt: "Digital PR Backlinks",
+  },
+  {
+    title: "Find the BEST Expired Domains",
+    description:
+      "One of the most overlooked and underestimated black-hat tactics that still work for ranking pages FAST: Using EXPIRED DOMAINS. Learn the ins and outs of using expired domains with TOP level news/media sites backlinks attached to them, that will drive MASSIVE link juice to your pages and boost your rankings literally overnight. See how to find them and WHERE to buy them for dirty cheap prices.",
+    image: featureExpiredDomains,
+    imageAlt: "Expired Domains",
   },
 ];
 
