@@ -8,8 +8,8 @@ export const Hero = () => {
         <div className="grid tablet:grid-cols-2 gap-8 tablet:gap-12 items-center">
           <div className="space-y-6 text-hero-foreground">
             <div className="inline-block">
-              <span className="text-hero-accent text-2xl mobile-lg:text-3xl font-bold italic">
-                Completely White Hat
+              <span className="text-hero-accent text-2xl mobile-lg:text-3xl font-huile font-bold">
+                Completely Black Hat
               </span>
             </div>
             
