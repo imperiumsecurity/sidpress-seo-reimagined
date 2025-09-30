@@ -7,6 +7,7 @@ import featurePrBacklinks from "@/assets/feature-pr-backlinks.png";
 import featureExpiredDomains from "@/assets/feature-expired-domains.png";
 import featureBacklinks from "@/assets/feature-backlinks.png";
 import featureAiContentFarm from "@/assets/feature-ai-content-farm.png";
+import featureReverseEngineering from "@/assets/feature-reverse-engineering.png";
 
 const features = [
   {
@@ -71,6 +72,13 @@ const features = [
       "Find out how to generate MASSIVE amount of ULTRA HIGH QUALITY CONTENT (THOUSANDS of articles per day) for your niche for dirty cheap prices ($0.015 cent per article) and how to get this articles RANKED FAST with my ultra quick secret indexing techniques + how to properly setup ALL their schema correctly and automatically.",
     image: featureAiContentFarm,
     imageAlt: "AI Content Farm Generation",
+  },
+  {
+    title: "REVERSE ENGINEER all your competitors BACKLINKS",
+    description:
+      "Find out in a LIVE video tutorial how to properly discover ALL your competitors MOST IMPORTANT backlinks and HOW to reverse engineer them one by one.",
+    image: featureReverseEngineering,
+    imageAlt: "Reverse Engineering SEO",
   },
 ];
 
