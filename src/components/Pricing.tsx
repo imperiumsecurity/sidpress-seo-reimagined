@@ -1,5 +1,6 @@
 import { Check } from "lucide-react";
 import bitcoinLogo from "@/assets/bitcoin-accepted.png";
+import morpheusChoice from "@/assets/morpheus-choice.png";
 
 const features = [
   "120 Pages of STRAIGHT TO THE POINT SEO content",
@@ -42,9 +43,6 @@ export const Pricing = () => {
           <h2 className="text-3xl mobile-lg:text-4xl tablet:text-5xl font-black mb-4">
             BUY YOUR ACCESS NOW
           </h2>
-          <p className="text-xl mobile-lg:text-2xl text-muted-foreground">
-            YOUR CHOICE TODAY
-          </p>
         </div>
 
         <div className="max-w-2xl mx-auto">
@@ -101,16 +99,37 @@ export const Pricing = () => {
             </div>
           </div>
 
-          <div className="mt-12 text-center bg-card p-6 rounded-lg border">
-            <p className="text-sm text-muted-foreground mb-2">
-              <strong className="text-foreground">OPTION #1:</strong> Keep struggling with
-              outdated SEO tactics, watching your rankings (and income) BEING DESTROYED with every
-              update.
-            </p>
-            <p className="text-sm text-muted-foreground">
-              <strong className="text-foreground">OPTION #2:</strong> Get the playbook, deploy your
-              first white-hat CAMPAIGN this week, and start earning while others panic.
-            </p>
+          <div className="mt-12 bg-card rounded-xl border-2 border-primary overflow-hidden shadow-2xl">
+            <div className="relative">
+              <img
+                src={morpheusChoice}
+                alt="Your Choice Today"
+                className="w-full h-auto"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-card via-card/80 to-transparent" />
+            </div>
+            
+            <div className="p-8 tablet:p-10 -mt-20 relative z-10">
+              <h3 className="text-2xl mobile-lg:text-3xl tablet:text-4xl font-black text-center mb-8">
+                YOUR CHOICE TODAY
+              </h3>
+              
+              <div className="grid mobile-lg:grid-cols-2 gap-6">
+                <div className="bg-destructive/10 border-2 border-destructive rounded-lg p-6 text-center">
+                  <h4 className="text-xl font-bold text-destructive mb-3">OPTION #1</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Keep struggling with outdated SEO tactics, watching your rankings (and income) BEING DESTROYED with every update.
+                  </p>
+                </div>
+                
+                <div className="bg-success/10 border-2 border-success rounded-lg p-6 text-center">
+                  <h4 className="text-xl font-bold text-success mb-3">OPTION #2</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Get the playbook, deploy your first white-hat CAMPAIGN this week, and start earning while others panic.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
