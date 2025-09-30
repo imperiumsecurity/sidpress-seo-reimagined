@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-image.jpg";
+import heroImage from "@/assets/hero-product-box.png";
 import heroBadge from "@/assets/hero-badge.png";
 
 export const Hero = () => {
@@ -37,11 +37,11 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative h-full min-h-[400px] tablet:min-h-[500px]">
             <img
               src={heroImage}
-              alt="SEO Course Dashboard"
-              className="w-full h-auto rounded-lg shadow-2xl"
+              alt="SEO Course Product Box"
+              className="w-full h-full object-contain"
             />
             <img
               src={heroBadge}
