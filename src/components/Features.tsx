@@ -5,6 +5,7 @@ import featureContent from "@/assets/feature-content.jpg";
 import featureParasiteSeo from "@/assets/feature-parasite-seo.jpg";
 import featurePrBacklinks from "@/assets/feature-pr-backlinks.png";
 import featureExpiredDomains from "@/assets/feature-expired-domains.png";
+import featureBacklinks from "@/assets/feature-backlinks.png";
 
 const features = [
   {
@@ -55,6 +56,13 @@ const features = [
       "One of the most overlooked and underestimated black-hat tactics that still work for ranking pages FAST: Using EXPIRED DOMAINS. Learn the ins and outs of using expired domains with TOP level news/media sites backlinks attached to them, that will drive MASSIVE link juice to your pages and boost your rankings literally overnight. See how to find them and WHERE to buy them for dirty cheap prices.",
     image: featureExpiredDomains,
     imageAlt: "Expired Domains",
+  },
+  {
+    title: "The Backlinks You need to Outrank Your Competitors",
+    description:
+      "Find out what are the MAIN / MOST IMPORTANT type of backlinks you guys and gals will need to use, in order to outrank your competitors on all your campaigns that feature MASSIVE ESTABLISHED AUTHORITY while at the same time have the CHEAPEST prices ever to be acquired. Learn where & how to buy this types of backlinks for all your and your clients campaigns.",
+    image: featureBacklinks,
+    imageAlt: "Backlinks to Outrank Competitors",
   },
 ];
 
