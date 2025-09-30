@@ -7,7 +7,7 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 mobile-lg:px-6">
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <img src={logo} alt="SIDPRESS Logo" className="h-10 w-auto" />
+            <img src={logo} alt="SIDPRESS Logo" className="h-10 w-auto invert dark:invert-0" />
           </Link>
 
           <div className="hidden tablet:flex items-center gap-8">
