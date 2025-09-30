@@ -14,7 +14,7 @@ const features = [
   {
     title: "Hijack/Steal Traffic (Legally)",
     description:
-      "Learn the steps required to: Hijack/Steal traffic (legally )and outrank ANY COMPETITOR on pretty much ANY NICHE",
+      "Learn the steps required to: Hijack/Steal traffic (legally) and outrank ANY COMPETITOR on pretty much ANY NICHE",
     image: featureStealingTraffic,
     imageAlt: "Stealing Traffic Legally",
   },
