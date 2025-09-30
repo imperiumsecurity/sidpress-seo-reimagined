@@ -426,6 +426,14 @@ ul {
     width: auto;
     opacity: 0.6;
     filter: grayscale(100%);
+    transition-property: opacity, filter;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.sttp-logo-ticker-image:hover {
+    opacity: 1;
+    filter: grayscale(0%);
 }
 
 @keyframes slide-left {
@@ -758,6 +766,21 @@ ul {
     flex-shrink: 0;
     margin-top: 0.125rem;
     color: hsl(142, 71%, 45%);
+    animation-name: check-appear;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+
+@keyframes check-appear {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .sttp-pricing-cta {
@@ -775,6 +798,10 @@ ul {
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     margin-bottom: 1.5rem;
+}
+
+.sttp-pricing-cta:hover {
+    opacity: 0.9;
 }
 
 .sttp-pricing-payment-methods {
@@ -806,6 +833,10 @@ ul {
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
+}
+
+.sttp-pricing-payment-logo:hover {
+    opacity: 1;
 }
 
 .sttp-pricing-choice {
