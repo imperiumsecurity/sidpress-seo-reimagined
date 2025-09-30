@@ -8,6 +8,7 @@ import featureExpiredDomains from "@/assets/feature-expired-domains.png";
 import featureBacklinks from "@/assets/feature-backlinks.png";
 import featureAiContentFarm from "@/assets/feature-ai-content-farm.png";
 import featureReverseEngineering from "@/assets/feature-reverse-engineering.png";
+import featureYoutubeRanking from "@/assets/feature-youtube-ranking.png";
 
 const features = [
   {
@@ -79,6 +80,13 @@ const features = [
       "Find out in a LIVE video tutorial how to properly discover ALL your competitors MOST IMPORTANT backlinks and HOW to reverse engineer them one by one.",
     image: featureReverseEngineering,
     imageAlt: "Reverse Engineering SEO",
+  },
+  {
+    title: "Rank Youtube Videos in 24 Hours",
+    description:
+      "Find out how you can rank pretty much any BRAND NEW VIDEO you launched on youtube whether it's an affiliate product video, or a video dedicated to  promote your own website content, does not matter. With this SECRET tactics you'll be feeding google/youtube algorithms with EXACTLY WHAT IT WANTS, in order to get TOP RANKINGS from them, BOTH on INSIDE of youtube itself as well as ranking your videos ON GOOGLE searches, as well. And NO, it's not the way you have been taught so far, we won't use ANY BACKLINKS or ANY PBN or any other expensive tactics, this is a TOTALLY INVESTMENT-FREE method that will give us 100% FREE traffic from google AND youtube and it will work even for COMPETITIVE keywords too.",
+    image: featureYoutubeRanking,
+    imageAlt: "Youtube Video Ranking in 24 Hours",
   },
 ];
 
