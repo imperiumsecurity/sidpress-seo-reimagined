@@ -108,7 +108,7 @@ const features = [
   {
     title: "BONUS / GIFT ONLY EXTRA CONTENT",
     description:
-      "We'll give you an EXTRA, TOP SECRET SEO document jam packed with UNDERGROUND tactics covering PARASITE SEO tricks and techniques designed to rank your websites on PAGE #1 of google within 24 HOURS at most by leveraging BIG sites built-in authority ! As well as more CUSTOM PROMPTS you can feed to AI chat bots like CLAUDE Sonnet/Opus in order  for them to return you PERFECT CONTENT PIECES that will read 100% HUMAN and bypass ZEROGPT and other GPT detector tools with max 10% score, guaranteed! Besides that we'll also show you on this secret report document how you can take advantage of ZERO SEARCH VOLUME keywords (The TRUE SEO HOLYGRAIL) by reverse engineering them from those PEOPLE ALSO ASK questions, and build PERFECT KEYWORD CLUSTERS for you to target on your campaigns, who'll be capable of driving you MASSIVE traffic day in/day out while staying away from big competition and remaining fully under the radar and capturing ULTRA FAST rankings in return! Beyond that we'll teach you how to acquire HIGH DA + HIGH TRAFFIC & HIGH AUTHORITY ~90+ backlinks for unbelievable prices like just $150 USD. Among many more secrets like how to rank your youtube videos on AI SEARCHES as well (not just within google and youtube anymore) and MUCH, MUCH MORE....Just leave us a positive feedback on trustpilot/on forums you found us and this EXTRA, BONUS content document will be yours 🤝!",
+      "We'll give you an EXTRA, TOP SECRET SEO document jam packed with UNDERGROUND tactics covering PARASITE SEO tricks and techniques designed to rank your websites on PAGE #1 of google within 24 HOURS at most by leveraging BIG sites built-in authority!\n\nAs well as more CUSTOM PROMPTS you can feed to AI chat bots like CLAUDE Sonnet/Opus in order for them to return you PERFECT CONTENT PIECES that will read 100% HUMAN and bypass ZEROGPT and other GPT detector tools with max 10% score, guaranteed!\n\nBesides that, we'll also show you on this secret report document how you can take advantage of ZERO SEARCH VOLUME keywords (The TRUE SEO HOLYGRAIL) by reverse engineering them from those PEOPLE ALSO ASK questions, and build PERFECT KEYWORD CLUSTERS for you to target on your campaigns, who'll be capable of driving you MASSIVE traffic day in/day out while staying away from big competition and remaining fully under the radar and capturing ULTRA FAST rankings in return!\n\nBeyond that, we'll teach you how to acquire HIGH DA + HIGH TRAFFIC & HIGH AUTHORITY ~90+ backlinks for unbelievable prices like just $150 USD. Among many more secrets like how to rank your youtube videos on AI SEARCHES as well (not just within google and youtube anymore) and MUCH, MUCH MORE...\n\nJust leave us a positive feedback on trustpilot/on forums you found us and this EXTRA, BONUS content document will be yours 🤝!",
     image: featureBonusParasite,
     imageAlt: "Bonus Parasite SEO Underground Content",
   },
@@ -143,9 +143,11 @@ export const Features = () => {
                 <h3 className="text-2xl mobile-lg:text-3xl tablet:text-4xl font-bold mb-4">
                   {feature.title}
                 </h3>
-                <p className="text-base mobile-lg:text-lg text-muted-foreground leading-relaxed">
-                  {feature.description}
-                </p>
+                <div className="text-base mobile-lg:text-lg text-muted-foreground leading-relaxed space-y-4">
+                  {feature.description.split('\n\n').map((paragraph, idx) => (
+                    <p key={idx}>{paragraph}</p>
+                  ))}
+                </div>
               </div>
             </div>
           ))}
