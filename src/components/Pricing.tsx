@@ -1,4 +1,5 @@
 import { Check } from "lucide-react";
+import bitcoinLogo from "@/assets/bitcoin-accepted.png";
 
 const features = [
   "120 Pages of STRAIGHT TO THE POINT SEO content",
@@ -90,9 +91,11 @@ export const Pricing = () => {
                       className="h-8 w-auto opacity-60 hover:opacity-100 transition-opacity"
                     />
                   ))}
-                  <div className="bg-primary text-hero-foreground px-4 py-2 rounded text-sm font-semibold">
-                    Bitcoin Accepted
-                  </div>
+                  <img
+                    src={bitcoinLogo}
+                    alt="Bitcoin Accepted"
+                    className="h-8 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  />
                 </div>
               </div>
             </div>
