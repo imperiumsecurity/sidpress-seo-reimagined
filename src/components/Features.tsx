@@ -2,6 +2,7 @@ import featureKeyword from "@/assets/feature-keyword.png";
 import featureStealingTraffic from "@/assets/feature-stealing-traffic.png";
 import featureRankings from "@/assets/feature-rankings.jpg";
 import featureContent from "@/assets/feature-content.jpg";
+import featureParasiteSeo from "@/assets/feature-parasite-seo.jpg";
 
 const features = [
   {
@@ -31,6 +32,13 @@ const features = [
       "Learn the steps required to: Get your pages ranked in AS FAST as 24 hours to 15 days with my secret methods to achieve TOP 10 results on google and other search engines.",
     image: featureContent,
     imageAlt: "Fast Rankings Guaranteed",
+  },
+  {
+    title: "WHITE HAT AND BLACK HAT PARASITE SEO SECRETS",
+    description:
+      "ONE OF THE BEST KEPT SECRETS OF SEO: Master the SIMPLEST yet most effective technique about SEO that few people know about; Discover the number #1 White Hat & Black Hat Parasite SEO Secrets and hijack the massive authority of 15+ 90-95 DA (Domain Authority) platforms that you NEED TO USE right now in order to GUARANTEE top rankings for your projects/websites pretty much OVERNIGHT !",
+    image: featureParasiteSeo,
+    imageAlt: "Parasite SEO Secrets",
   },
 ];
 
