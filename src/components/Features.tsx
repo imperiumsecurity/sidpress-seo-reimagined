@@ -9,6 +9,7 @@ import featureBacklinks from "@/assets/feature-backlinks.png";
 import featureAiContentFarm from "@/assets/feature-ai-content-farm.png";
 import featureReverseEngineering from "@/assets/feature-reverse-engineering.png";
 import featureYoutubeRanking from "@/assets/feature-youtube-ranking.png";
+import featureAiSearches from "@/assets/feature-ai-searches.png";
 
 const features = [
   {
@@ -87,6 +88,13 @@ const features = [
       "Find out how you can rank pretty much any BRAND NEW VIDEO you launched on youtube whether it's an affiliate product video, or a video dedicated to  promote your own website content, does not matter. With this SECRET tactics you'll be feeding google/youtube algorithms with EXACTLY WHAT IT WANTS, in order to get TOP RANKINGS from them, BOTH on INSIDE of youtube itself as well as ranking your videos ON GOOGLE searches, as well. And NO, it's not the way you have been taught so far, we won't use ANY BACKLINKS or ANY PBN or any other expensive tactics, this is a TOTALLY INVESTMENT-FREE method that will give us 100% FREE traffic from google AND youtube and it will work even for COMPETITIVE keywords too.",
     image: featureYoutubeRanking,
     imageAlt: "Youtube Video Ranking in 24 Hours",
+  },
+  {
+    title: "Rank your websites on Ai Searches FAST",
+    description:
+      "In-Depth Explanations about the DIFFERENCES between GEO, AEO and LLM SEO, because there are some significant (although subtle) DIFFERENCES between this 3 new SEO types. As well as what is the absolute best tool to keep track of your website AI searches visibility across all different AI models out there. And the 4 PILLARS/EASY STEPS you need to master and execute every time, in order to rank FAST and EASY on ALL AI searches (including google Ai overviews) as fast as possible.",
+    image: featureAiSearches,
+    imageAlt: "AI Search Rankings",
   },
 ];
 
