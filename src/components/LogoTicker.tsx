@@ -12,9 +12,9 @@ export const LogoTicker = () => {
   return (
     <section className="py-8 bg-muted overflow-hidden">
       <div className="relative">
-        <div className="flex animate-slide-left">
+        <div className="flex animate-slide-left whitespace-nowrap">
           {/* First set of logos */}
-          <div className="flex items-center gap-16 px-8 shrink-0">
+          <div className="flex items-center gap-16 px-8 shrink-0 min-w-full justify-around">
             {logos.map((logo, index) => (
               <img
                 key={`first-${index}`}
@@ -25,7 +25,7 @@ export const LogoTicker = () => {
             ))}
           </div>
           {/* Duplicate set for seamless loop */}
-          <div className="flex items-center gap-16 px-8 shrink-0">
+          <div className="flex items-center gap-16 px-8 shrink-0 min-w-full justify-around">
             {logos.map((logo, index) => (
               <img
                 key={`second-${index}`}
@@ -36,7 +36,7 @@ export const LogoTicker = () => {
             ))}
           </div>
           {/* Third set for seamless loop */}
-          <div className="flex items-center gap-16 px-8 shrink-0">
+          <div className="flex items-center gap-16 px-8 shrink-0 min-w-full justify-around">
             {logos.map((logo, index) => (
               <img
                 key={`third-${index}`}
