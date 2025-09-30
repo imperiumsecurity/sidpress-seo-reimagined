@@ -10,6 +10,7 @@ import featureAiContentFarm from "@/assets/feature-ai-content-farm.png";
 import featureReverseEngineering from "@/assets/feature-reverse-engineering.png";
 import featureYoutubeRanking from "@/assets/feature-youtube-ranking.png";
 import featureAiSearches from "@/assets/feature-ai-searches.png";
+import featureContentMapping from "@/assets/feature-content-mapping.png";
 
 const features = [
   {
@@ -95,6 +96,13 @@ const features = [
       "In-Depth Explanations about the DIFFERENCES between GEO, AEO and LLM SEO, because there are some significant (although subtle) DIFFERENCES between this 3 new SEO types. As well as what is the absolute best tool to keep track of your website AI searches visibility across all different AI models out there. And the 4 PILLARS/EASY STEPS you need to master and execute every time, in order to rank FAST and EASY on ALL AI searches (including google Ai overviews) as fast as possible.",
     image: featureAiSearches,
     imageAlt: "AI Search Rankings",
+  },
+  {
+    title: "How to Generate TOPICAL AUTHORITY Content Maps",
+    description:
+      "Find out how to generate FULL topical authority content maps for dirty cheap, using my CUSTOM PROMPTS for Claude AI. So that you don't need to pay any expensive agencies or freelancers to do it for you anymore. And use those to establish TOPICAL AUTHORITY in any niche and completely DOMINATE the SERPs and outrank your competitors from the TOP 10 first page results fast.",
+    image: featureContentMapping,
+    imageAlt: "Topical Authority Content Mapping",
   },
 ];
 
