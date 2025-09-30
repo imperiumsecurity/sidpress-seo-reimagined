@@ -3,6 +3,7 @@ import featureStealingTraffic from "@/assets/feature-stealing-traffic.png";
 import featureRankings from "@/assets/feature-rankings.jpg";
 import featureContent from "@/assets/feature-content.jpg";
 import featureParasiteSeo from "@/assets/feature-parasite-seo.jpg";
+import featurePrBacklinks from "@/assets/feature-pr-backlinks.png";
 
 const features = [
   {
@@ -39,6 +40,13 @@ const features = [
       "ONE OF THE BEST KEPT SECRETS OF SEO: Master the SIMPLEST yet most effective technique about SEO that few people know about; Discover the number #1 White Hat & Black Hat Parasite SEO Secrets and hijack the massive authority of 15+ 90-95 DA (Domain Authority) platforms that you NEED TO USE right now in order to GUARANTEE top rankings for your projects/websites pretty much OVERNIGHT !",
     image: featureParasiteSeo,
     imageAlt: "Parasite SEO Secrets",
+  },
+  {
+    title: "Why you need Digital PR Backlinks",
+    description:
+      "Digital PR backlinks are the FUTURE of SEO done right. And the BEST KEPT SECRET of TOP LEVEL SEO professionals right now. Discover inside WHY you need this type of backlinks in every one of your SEO campaigns and WHERE to get them for DIRTY CHEAP prices not commonly found on mainstream sources.",
+    image: featurePrBacklinks,
+    imageAlt: "Digital PR Backlinks",
   },
 ];
 
