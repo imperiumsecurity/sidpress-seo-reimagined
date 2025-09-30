@@ -11,6 +11,7 @@ import featureReverseEngineering from "@/assets/feature-reverse-engineering.png"
 import featureYoutubeRanking from "@/assets/feature-youtube-ranking.png";
 import featureAiSearches from "@/assets/feature-ai-searches.png";
 import featureContentMapping from "@/assets/feature-content-mapping.png";
+import featureBonusParasite from "@/assets/feature-bonus-parasite.png";
 
 const features = [
   {
@@ -103,6 +104,13 @@ const features = [
       "Find out how to generate FULL topical authority content maps for dirty cheap, using my CUSTOM PROMPTS for Claude AI. So that you don't need to pay any expensive agencies or freelancers to do it for you anymore. And use those to establish TOPICAL AUTHORITY in any niche and completely DOMINATE the SERPs and outrank your competitors from the TOP 10 first page results fast.",
     image: featureContentMapping,
     imageAlt: "Topical Authority Content Mapping",
+  },
+  {
+    title: "BONUS / GIFT ONLY EXTRA CONTENT",
+    description:
+      "We'll give you an EXTRA, TOP SECRET SEO document jam packed with UNDERGROUND tactics covering PARASITE SEO tricks and techniques designed to rank your websites on PAGE #1 of google within 24 HOURS at most by leveraging BIG sites built-in authority ! As well as more CUSTOM PROMPTS you can feed to AI chat bots like CLAUDE Sonnet/Opus in order  for them to return you PERFECT CONTENT PIECES that will read 100% HUMAN and bypass ZEROGPT and other GPT detector tools with max 10% score, guaranteed! Besides that we'll also show you on this secret report document how you can take advantage of ZERO SEARCH VOLUME keywords (The TRUE SEO HOLYGRAIL) by reverse engineering them from those PEOPLE ALSO ASK questions, and build PERFECT KEYWORD CLUSTERS for you to target on your campaigns, who'll be capable of driving you MASSIVE traffic day in/day out while staying away from big competition and remaining fully under the radar and capturing ULTRA FAST rankings in return! Beyond that we'll teach you how to acquire HIGH DA + HIGH TRAFFIC & HIGH AUTHORITY ~90+ backlinks for unbelievable prices like just $150 USD. Among many more secrets like how to rank your youtube videos on AI SEARCHES as well (not just within google and youtube anymore) and MUCH, MUCH MORE....Just leave us a positive feedback on trustpilot/on forums you found us and this EXTRA, BONUS content document will be yours 🤝!",
+    image: featureBonusParasite,
+    imageAlt: "Bonus Parasite SEO Underground Content",
   },
 ];
 
