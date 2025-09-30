@@ -19,9 +19,9 @@ const features = [
     imageAlt: "Stealing Traffic Legally",
   },
   {
-    title: "FAST RANKINGS GUARANTEED",
+    title: "Rank new websites and parasite pages in 24 hours",
     description:
-      "Learn the steps required to: Get your pages ranked in AS FAST as 24 hours to 15 days with my secret methods to achieve TOP 10 results on google and other search engines.",
+      "FAST RANKINGS GUARANTEED The MOST IMPORTANT THING: 100% STRAIGHT TO THE POINT, ACTIONABLE STEPS that WILL GET YOU ultra fast rankings (IN AS FAST AS 24 HOURS for lower competition keywords) guaranteed. If you apply everything we laid out on this course precisely, then the rankings will be inevitable!",
     image: featureRankings,
     imageAlt: "Fast Ranking Results",
   },
