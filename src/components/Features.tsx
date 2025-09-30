@@ -6,6 +6,7 @@ import featureParasiteSeo from "@/assets/feature-parasite-seo.jpg";
 import featurePrBacklinks from "@/assets/feature-pr-backlinks.png";
 import featureExpiredDomains from "@/assets/feature-expired-domains.png";
 import featureBacklinks from "@/assets/feature-backlinks.png";
+import featureAiContentFarm from "@/assets/feature-ai-content-farm.png";
 
 const features = [
   {
@@ -63,6 +64,13 @@ const features = [
       "Find out what are the MAIN / MOST IMPORTANT type of backlinks you guys and gals will need to use, in order to outrank your competitors on all your campaigns that feature MASSIVE ESTABLISHED AUTHORITY while at the same time have the CHEAPEST prices ever to be acquired. Learn where & how to buy this types of backlinks for all your and your clients campaigns.",
     image: featureBacklinks,
     imageAlt: "Backlinks to Outrank Competitors",
+  },
+  {
+    title: "Discover how to generate AI CONTENT FARMS",
+    description:
+      "Find out how to generate MASSIVE amount of ULTRA HIGH QUALITY CONTENT (THOUSANDS of articles per day) for your niche for dirty cheap prices ($0.015 cent per article) and how to get this articles RANKED FAST with my ultra quick secret indexing techniques + how to properly setup ALL their schema correctly and automatically.",
+    image: featureAiContentFarm,
+    imageAlt: "AI Content Farm Generation",
   },
 ];
 
