@@ -1,5 +1,5 @@
 import featureKeyword from "@/assets/feature-keyword.jpg";
-import featureBacklinks from "@/assets/feature-backlinks.jpg";
+import featureStealingTraffic from "@/assets/feature-stealing-traffic.png";
 import featureRankings from "@/assets/feature-rankings.jpg";
 import featureContent from "@/assets/feature-content.jpg";
 
@@ -12,11 +12,11 @@ const features = [
     imageAlt: "Keyword Research Visualization",
   },
   {
-    title: "WHITE HAT PARASITE SEO SECRETS",
+    title: "Hijack/Steal Traffic (Legally)",
     description:
-      "ONE OF THE BEST KEPT SECRETS OF SEO: Master the SIMPLEST yet most effective technique about SEO that few people know about; Discover the number #1 White Hat Parasite SEO Secrets and hijack the massive authority of 15+ 90-95 DA (Domain Authority) platforms that you NEED TO USE right now in order to GUARANTEE top rankings for your projects/websites pretty much OVERNIGHT!",
-    image: featureBacklinks,
-    imageAlt: "Backlink Building Strategy",
+      "Learn the steps required to: Hijack/Steal traffic (legally )and outrank ANY COMPETITOR on pretty much ANY NICHE",
+    image: featureStealingTraffic,
+    imageAlt: "Stealing Traffic Legally",
   },
   {
     title: "FAST RANKINGS GUARANTEED",
