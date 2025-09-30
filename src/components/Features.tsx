@@ -26,11 +26,11 @@ const features = [
     imageAlt: "Fast Ranking Results",
   },
   {
-    title: "Discover how to generate AI CONTENT FARMS",
+    title: "Fast Rankings Guaranteed",
     description:
-      "Find out how to generate MASSIVE amount of ULTRA HIGH QUALITY CONTENT (THOUSANDS of articles per day) for your niche for dirty cheap prices ($0.015 cent per article) and how to get this articles RANKED FAST with my ultra quick secret indexing techniques + how to properly setup ALL their schema correctly and automatically.",
+      "Learn the steps required to: Get your pages ranked in AS FAST as 24 hours to 15 days with my secret methods to achieve TOP 10 results on google and other search engines.",
     image: featureContent,
-    imageAlt: "AI Content Generation",
+    imageAlt: "Fast Rankings Guaranteed",
   },
 ];
 
