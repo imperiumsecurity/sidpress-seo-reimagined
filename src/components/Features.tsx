@@ -1,4 +1,4 @@
-import featureKeyword from "@/assets/feature-keyword.jpg";
+import featureKeyword from "@/assets/feature-keyword.png";
 import featureStealingTraffic from "@/assets/feature-stealing-traffic.png";
 import featureRankings from "@/assets/feature-rankings.jpg";
 import featureContent from "@/assets/feature-content.jpg";
