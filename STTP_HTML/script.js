@@ -8,6 +8,7 @@
     document.addEventListener('DOMContentLoaded', function() {
         initMobileMenu();
         initLogoTicker();
+        initFAQ();
         updateCopyright();
     });
 
@@ -72,6 +73,34 @@
         for (var i = 0; i < items.length; i++) {
             var clone = items[i].cloneNode(true);
             ticker.appendChild(clone);
+        }
+    }
+
+    // FAQ Accordion
+    function initFAQ() {
+        var faqTriggers = document.querySelectorAll('[data-action="toggle-faq"]');
+        
+        if (!faqTriggers.length) {
+            return;
+        }
+
+        for (var i = 0; i < faqTriggers.length; i++) {
+            faqTriggers[i].addEventListener('click', function() {
+                var faqItem = this.closest('.sttp-faq-item');
+                var currentState = faqItem.getAttribute('data-state') || 'closed';
+                
+                // Close all other FAQ items
+                var allFaqItems = document.querySelectorAll('.sttp-faq-item');
+                for (var j = 0; j < allFaqItems.length; j++) {
+                    if (allFaqItems[j] !== faqItem) {
+                        allFaqItems[j].setAttribute('data-state', 'closed');
+                    }
+                }
+                
+                // Toggle current item
+                var newState = currentState === 'closed' ? 'open' : 'closed';
+                faqItem.setAttribute('data-state', newState);
+            });
         }
     }
 
