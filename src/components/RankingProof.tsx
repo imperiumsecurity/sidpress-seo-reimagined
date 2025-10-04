@@ -72,7 +72,7 @@ export const RankingProof = () => {
 
         {/* Proof Heading */}
         <h1 className="text-3xl mobile-lg:text-4xl tablet:text-5xl font-black text-center mb-8 tablet:mb-12">
-          Last week, we ranked #1 for exactly 60-70 competitive in 37 hours. Here's proof
+          Last week, we ranked #1 for exactly 60-70 competitive keywords in 37 hours. Here's proof
         </h1>
 
         {/* Image Grid with Duct Tape Effect */}
