@@ -86,8 +86,8 @@ export const RankingProof = () => {
                 {/* Duct Tape Corners */}
                 <div className="absolute -top-4 -left-4 w-20 h-8 bg-[#FFA500] transform -rotate-45 z-10 shadow-lg"></div>
                 <div className="absolute -top-4 -right-4 w-20 h-8 bg-[#FFA500] transform rotate-45 z-10 shadow-lg"></div>
-                <div className="absolute -bottom-4 -left-4 w-20 h-8 bg-[#FFA500] transform rotate-45 z-10 shadow-lg"></div>
-                <div className="absolute -bottom-4 -right-4 w-20 h-8 bg-[#FFA500] transform -rotate-45 z-10 shadow-lg"></div>
+                <div className="absolute -bottom-2 -left-4 w-20 h-8 bg-[#FFA500] transform rotate-45 z-10 shadow-lg"></div>
+                <div className="absolute -bottom-2 -right-4 w-20 h-8 bg-[#FFA500] transform -rotate-45 z-10 shadow-lg"></div>
                 
                 {/* Image Container */}
                 <div className="relative border-4 border-primary shadow-2xl overflow-hidden rounded-lg">
