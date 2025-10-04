@@ -71,7 +71,7 @@ export const Pricing = () => {
                 href="https://sidpress.sell.app/product/straight-to-the-point-course"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full bg-hero text-hero-foreground text-center py-4 rounded-lg font-bold text-lg hover:opacity-90 transition-opacity mb-6"
+                className="block w-full bg-hero text-hero-foreground text-center py-4 rounded-lg font-bold text-lg hover:opacity-90 hover:scale-105 transition-all mb-6"
               >
                 BUY NOW
               </a>
