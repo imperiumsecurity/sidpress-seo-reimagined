@@ -74,8 +74,7 @@ export const RankingProof = () => {
 
         {/* Image Grid with Duct Tape Effect */}
         <div className="max-w-5xl mx-auto mb-12 tablet:mb-16">
-          <div className="grid grid-cols-1 tablet:grid-cols-2 gap-8 tablet:gap-12">
-            {proofImages.map((image, index) => (
+          <div className="grid grid-cols-1 tablet:grid-cols-2 gap-16 tablet:gap-20">{proofImages.map((image, index) => (
               <a
                 key={index}
                 href={image.src}
