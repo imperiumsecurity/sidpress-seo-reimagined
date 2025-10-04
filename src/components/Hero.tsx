@@ -30,7 +30,7 @@ export const Hero = () => {
                 href="https://sidpress.sell.app/product/straight-to-the-point-course"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-hero-foreground text-hero px-8 py-4 rounded-lg font-bold text-lg hover:opacity-90 transition-opacity"
+                className="inline-block bg-hero-foreground text-hero px-8 py-4 rounded-lg font-bold text-lg hover:opacity-90 hover:scale-105 transition-all duration-200"
               >
                 BUY NOW - $900 USD
               </a>
