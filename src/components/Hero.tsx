@@ -18,7 +18,7 @@ export const Hero = () => {
             </h1>
             
             <h2 className="text-2xl mobile-lg:text-3xl tablet:text-4xl font-bold">
-              LEARN ALL THE SEO LOOPHOLES THEY'LL NEVER CLOSE
+              LEARN HOW TO RANK #1 ON GOOGLE IN 24-48 HOURS GUARANTEED, WITH NO BACKLINKS AND ZERO DOMAIN AUTHORITY
             </h2>
             
             <p className="text-lg mobile-lg:text-xl font-medium max-w-xl">
