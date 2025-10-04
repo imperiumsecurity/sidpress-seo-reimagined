@@ -2,6 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { LogoTicker } from "@/components/LogoTicker";
 import { RankingProof } from "@/components/RankingProof";
+import { SocialProof } from "@/components/SocialProof";
 import { Testimonial } from "@/components/Testimonial";
 import { Features } from "@/components/Features";
 import { Comparison } from "@/components/Comparison";
@@ -15,6 +16,7 @@ const Index = () => {
       <Hero />
       <LogoTicker />
       <RankingProof />
+      <SocialProof />
       <Testimonial />
       <Features />
       <Comparison />
