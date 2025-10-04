@@ -15,9 +15,12 @@ export const RankingProof = () => {
     <section className="py-16 tablet:py-24 bg-muted">
       <div className="container mx-auto px-4 mobile-lg:px-6">
         {/* Main Heading */}
-        <h1 className="text-3xl mobile-lg:text-4xl tablet:text-5xl desktop:text-6xl font-black text-center mb-8 tablet:mb-12">
-          Your Competitors Rank in Days. While You Waiting Months. Here's Why.
-        </h1>
+          <h1 className="text-3xl mobile-lg:text-4xl tablet:text-5xl desktop:text-6xl font-black text-center mb-8 tablet:mb-12">
+            Your Competitors <span className="relative inline-block">
+              <span className="relative z-10">Rank in Days</span>
+              <span className="absolute bottom-1 left-0 right-0 h-3 bg-yellow-400 -rotate-1 -z-0 opacity-80"></span>
+            </span>. While You Waiting Months. Here's Why.
+          </h1>
 
         {/* Opening Content */}
         <div className="max-w-4xl mx-auto space-y-6 tablet:space-y-8 mb-12 tablet:mb-16">
