@@ -10,7 +10,7 @@ export const LogoTicker = () => {
   ];
 
   return (
-    <section className="py-8 bg-muted overflow-hidden">
+    <section className="py-8 bg-muted overflow-hidden border-b border-black">
       <div className="relative">
         <div className="flex animate-slide-left whitespace-nowrap">
           {/* First set of logos */}
