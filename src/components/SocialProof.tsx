@@ -55,19 +55,6 @@ export const SocialProof = () => {
             </div>
           </div>
 
-          {/* Trustpilot Review Image with Shadow/3D Effect */}
-          <div className="flex justify-center">
-            <div className="relative max-w-md w-full">
-              <img
-                src={trustpilotReview}
-                alt="Trustpilot Customer Review"
-                className="w-full h-auto rounded-lg shadow-2xl border-4 border-muted"
-                style={{
-                  boxShadow: '0 20px 60px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.22)',
-                }}
-              />
-            </div>
-          </div>
         </div>
       </div>
     </section>
