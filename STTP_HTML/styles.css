@@ -288,9 +288,14 @@ ul {
     border-radius: 0.5rem;
     font-weight: bold;
     font-size: 1.125rem;
-    transition-property: opacity;
+    transition-property: transform, opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
+}
+
+.sttp-hero-cta:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
 }
 
 .sttp-hero-image-container {
@@ -1609,7 +1614,7 @@ ul {
     border-radius: 0.5rem;
     font-weight: bold;
     font-size: 1.125rem;
-    transition-property: opacity;
+    transition-property: transform, opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     margin-bottom: 1.5rem;
@@ -1617,6 +1622,7 @@ ul {
 
 .sttp-pricing-cta:hover {
     opacity: 0.9;
+    transform: scale(1.05);
 }
 
 .sttp-pricing-payment-methods {
